@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Org-Agent Portal Automation Suite">
+    <test name="Org-Agent Portal Automation">
+        <classes>
+            <class name="testCases.TestLoginPage"/>
+           <!-- <class name="testCases.TestCashInPage"/>
+            <class name="testCases.TestCashOutPage"/>-->
+            <class name="testCases.TestSelfStmtPage"/>
+
+        </classes>
+    </test>
+</suite>
